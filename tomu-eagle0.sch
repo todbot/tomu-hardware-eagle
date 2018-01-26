@@ -161,48 +161,47 @@
 <library name="todstuff">
 <packages>
 <package name="QFN24PAD">
-<wire x1="2.132" y1="-2.482" x2="2.482" y2="-2.482" width="0.2032" layer="21"/>
-<wire x1="2.482" y1="-2.132" x2="2.482" y2="-2.482" width="0.2032" layer="21"/>
-<wire x1="-2.168" y1="-2.482" x2="-2.518" y2="-2.482" width="0.2032" layer="21"/>
-<wire x1="-2.518" y1="-2.482" x2="-2.518" y2="-2.132" width="0.2032" layer="21"/>
-<wire x1="2.5" y1="2.1" x2="2.5" y2="2.5" width="0.2032" layer="21"/>
-<wire x1="2.5" y1="2.5" x2="2.1" y2="2.5" width="0.2032" layer="21"/>
-<wire x1="-2.1" y1="2.5" x2="-2.5" y2="2.1" width="0.2032" layer="21"/>
-<smd name="1" x="-2.45" y="1.75" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="2" x="-2.45" y="1.05" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="3" x="-2.45" y="0.35" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="4" x="-2.45" y="-0.35" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="5" x="-2.45" y="-1.05" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="6" x="-2.45" y="-1.75" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="7" x="-1.75" y="-2.45" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="8" x="-1.05" y="-2.45" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="9" x="-0.35" y="-2.45" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="10" x="0.35" y="-2.45" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="11" x="1.05" y="-2.45" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="12" x="1.75" y="-2.45" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="13" x="2.45" y="-1.75" dx="0.8" dy="0.3" layer="1"/>
-<smd name="14" x="2.45" y="-1.05" dx="0.8" dy="0.3" layer="1"/>
-<smd name="15" x="2.45" y="-0.35" dx="0.8" dy="0.3" layer="1"/>
-<smd name="16" x="2.45" y="0.35" dx="0.8" dy="0.3" layer="1"/>
-<smd name="17" x="2.45" y="1.05" dx="0.8" dy="0.3" layer="1"/>
-<smd name="18" x="2.45" y="1.75" dx="0.8" dy="0.3" layer="1"/>
-<smd name="19" x="1.75" y="2.45" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="20" x="1.05" y="2.45" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="21" x="0.35" y="2.45" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="22" x="-0.35" y="2.45" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="23" x="-1.05" y="2.45" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="24" x="-1.75" y="2.45" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<text x="-2.918" y="4.668" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.868" y="-7.982" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="2.15" y1="-2.6" x2="2.55" y2="-2.6" width="0.2032" layer="21"/>
+<wire x1="2.55" y1="-2.15" x2="2.55" y2="-2.6" width="0.2032" layer="21"/>
+<wire x1="-2.2" y1="-2.6" x2="-2.6" y2="-2.6" width="0.2032" layer="21"/>
+<wire x1="-2.6" y1="-2.6" x2="-2.6" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="2.55" y1="2.2" x2="2.55" y2="2.65" width="0.2032" layer="21"/>
+<wire x1="2.55" y1="2.65" x2="2.15" y2="2.65" width="0.2032" layer="21"/>
+<wire x1="-2.3" y1="2.7" x2="-2.7" y2="2.3" width="0.2032" layer="21"/>
+<smd name="1" x="-2.55" y="1.75" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="2" x="-2.55" y="1.05" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="3" x="-2.55" y="0.35" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="4" x="-2.55" y="-0.35" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="5" x="-2.55" y="-1.05" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="6" x="-2.55" y="-1.75" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="7" x="-1.75" y="-2.55" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="8" x="-1.05" y="-2.55" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="9" x="-0.35" y="-2.55" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="10" x="0.35" y="-2.55" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="11" x="1.05" y="-2.55" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="12" x="1.75" y="-2.55" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="13" x="2.55" y="-1.75" dx="0.8" dy="0.3" layer="1"/>
+<smd name="14" x="2.55" y="-1.05" dx="0.8" dy="0.3" layer="1"/>
+<smd name="15" x="2.55" y="-0.35" dx="0.8" dy="0.3" layer="1"/>
+<smd name="16" x="2.55" y="0.35" dx="0.8" dy="0.3" layer="1"/>
+<smd name="17" x="2.55" y="1.05" dx="0.8" dy="0.3" layer="1"/>
+<smd name="18" x="2.55" y="1.75" dx="0.8" dy="0.3" layer="1"/>
+<smd name="19" x="1.75" y="2.55" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="20" x="1.05" y="2.55" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="21" x="0.35" y="2.55" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="22" x="-0.35" y="2.55" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="23" x="-1.05" y="2.55" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="24" x="-1.75" y="2.55" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<text x="-2.818" y="4.298" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.868" y="-5.442" size="1.27" layer="27">&gt;VALUE</text>
 <smd name="PAD" x="0" y="0" dx="3.5" dy="3.5" layer="1"/>
 <wire x1="-3.7" y1="0" x2="4.5" y2="0" width="0" layer="21"/>
 <wire x1="0" y1="-4.4" x2="0" y2="3.8" width="0" layer="21"/>
-<polygon width="0" layer="51">
-<vertex x="-2.25" y="2.25"/>
-<vertex x="-2.25" y="-2.25"/>
-<vertex x="2.25" y="-2.25"/>
-<vertex x="2.25" y="2.25"/>
-<vertex x="2.15" y="2.25"/>
+<polygon width="0.01" layer="51">
+<vertex x="-2.5" y="2.55"/>
+<vertex x="-2.5" y="-2.5"/>
+<vertex x="2.45" y="-2.5"/>
+<vertex x="2.45" y="2.55"/>
 </polygon>
 </package>
 <package name="MOLEX-48037-1000">
