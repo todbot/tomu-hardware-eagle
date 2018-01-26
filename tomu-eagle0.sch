@@ -161,40 +161,49 @@
 <library name="todstuff">
 <packages>
 <package name="QFN24PAD">
-<wire x1="1.682" y1="-2.032" x2="2.032" y2="-2.032" width="0.2032" layer="21"/>
-<wire x1="2.032" y1="-1.682" x2="2.032" y2="-2.032" width="0.2032" layer="21"/>
-<wire x1="-1.618" y1="-2.032" x2="-1.968" y2="-2.032" width="0.2032" layer="21"/>
-<wire x1="-1.968" y1="-2.032" x2="-1.968" y2="-1.682" width="0.2032" layer="21"/>
-<wire x1="2.032" y1="1.618" x2="2.032" y2="1.968" width="0.2032" layer="21"/>
-<wire x1="2.032" y1="1.968" x2="1.682" y2="1.968" width="0.2032" layer="21"/>
-<wire x1="-1.618" y1="1.968" x2="-1.968" y2="1.618" width="0.2032" layer="21"/>
-<smd name="1" x="-1.968" y="1.218" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="2" x="-1.968" y="0.718" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="3" x="-1.968" y="0.218" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="4" x="-1.968" y="-0.282" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="5" x="-1.968" y="-0.782" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="6" x="-1.968" y="-1.282" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="7" x="-1.218" y="-2.032" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="8" x="-0.718" y="-2.032" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="9" x="-0.218" y="-2.032" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="10" x="0.282" y="-2.032" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="11" x="0.782" y="-2.032" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="12" x="1.282" y="-2.032" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="13" x="2.032" y="-1.282" dx="0.8" dy="0.3" layer="1"/>
-<smd name="14" x="2.032" y="-0.782" dx="0.8" dy="0.3" layer="1"/>
-<smd name="15" x="2.032" y="-0.282" dx="0.8" dy="0.3" layer="1"/>
-<smd name="16" x="2.032" y="0.218" dx="0.8" dy="0.3" layer="1"/>
-<smd name="17" x="2.032" y="0.718" dx="0.8" dy="0.3" layer="1"/>
-<smd name="18" x="2.032" y="1.218" dx="0.8" dy="0.3" layer="1"/>
-<smd name="19" x="1.282" y="1.968" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="20" x="0.782" y="1.968" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="21" x="0.282" y="1.968" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="22" x="-0.218" y="1.968" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="23" x="-0.718" y="1.968" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="24" x="-1.218" y="1.968" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<text x="-2.418" y="2.768" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.468" y="-4.182" size="1.27" layer="27">&gt;VALUE</text>
-<smd name="PAD" x="0" y="0" dx="2.286" dy="2.286" layer="1"/>
+<wire x1="2.132" y1="-2.482" x2="2.482" y2="-2.482" width="0.2032" layer="21"/>
+<wire x1="2.482" y1="-2.132" x2="2.482" y2="-2.482" width="0.2032" layer="21"/>
+<wire x1="-2.168" y1="-2.482" x2="-2.518" y2="-2.482" width="0.2032" layer="21"/>
+<wire x1="-2.518" y1="-2.482" x2="-2.518" y2="-2.132" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="2.1" x2="2.5" y2="2.5" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="2.5" x2="2.1" y2="2.5" width="0.2032" layer="21"/>
+<wire x1="-2.1" y1="2.5" x2="-2.5" y2="2.1" width="0.2032" layer="21"/>
+<smd name="1" x="-2.45" y="1.75" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="2" x="-2.45" y="1.05" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="3" x="-2.45" y="0.35" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="4" x="-2.45" y="-0.35" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="5" x="-2.45" y="-1.05" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="6" x="-2.45" y="-1.75" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="7" x="-1.75" y="-2.45" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="8" x="-1.05" y="-2.45" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="9" x="-0.35" y="-2.45" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="10" x="0.35" y="-2.45" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="11" x="1.05" y="-2.45" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="12" x="1.75" y="-2.45" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="13" x="2.45" y="-1.75" dx="0.8" dy="0.3" layer="1"/>
+<smd name="14" x="2.45" y="-1.05" dx="0.8" dy="0.3" layer="1"/>
+<smd name="15" x="2.45" y="-0.35" dx="0.8" dy="0.3" layer="1"/>
+<smd name="16" x="2.45" y="0.35" dx="0.8" dy="0.3" layer="1"/>
+<smd name="17" x="2.45" y="1.05" dx="0.8" dy="0.3" layer="1"/>
+<smd name="18" x="2.45" y="1.75" dx="0.8" dy="0.3" layer="1"/>
+<smd name="19" x="1.75" y="2.45" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="20" x="1.05" y="2.45" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="21" x="0.35" y="2.45" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="22" x="-0.35" y="2.45" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="23" x="-1.05" y="2.45" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="24" x="-1.75" y="2.45" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<text x="-2.918" y="4.668" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.868" y="-7.982" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="PAD" x="0" y="0" dx="3.5" dy="3.5" layer="1"/>
+<wire x1="-3.7" y1="0" x2="4.5" y2="0" width="0" layer="21"/>
+<wire x1="0" y1="-4.4" x2="0" y2="3.8" width="0" layer="21"/>
+<polygon width="0" layer="51">
+<vertex x="-2.25" y="2.25"/>
+<vertex x="-2.25" y="-2.25"/>
+<vertex x="2.25" y="-2.25"/>
+<vertex x="2.25" y="2.25"/>
+<vertex x="2.15" y="2.25"/>
+</polygon>
 </package>
 <package name="MOLEX-48037-1000">
 <wire x1="0" y1="-5.8" x2="-17.5" y2="-5.8" width="0.127" layer="51"/>
@@ -6960,14 +6969,15 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0402" value="15"/>
 <part name="LED1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIP-LED0603" value="grn"/>
 <part name="LED2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIP-LED0603" value="grn"/>
-<part name="TX" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1"/>
-<part name="RX" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1"/>
-<part name="D" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1"/>
-<part name="C" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1"/>
-<part name="R" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1"/>
+<part name="T" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP10R" package3d_urn="urn:adsk.eagle:package:27959/1" value="TPTP10R"/>
+<part name="R" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP10R" package3d_urn="urn:adsk.eagle:package:27959/1" value="TPTP10R"/>
+<part name="D" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP10R" package3d_urn="urn:adsk.eagle:package:27959/1" value="TPTP10R"/>
+<part name="C" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP10R" package3d_urn="urn:adsk.eagle:package:27959/1" value="TPTP10R"/>
+<part name="RS" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP10R" package3d_urn="urn:adsk.eagle:package:27959/1" value="TPTP10R"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="5" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1"/>
+<part name="5V" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1"/>
 <part name="U$1" library="todstuff" deviceset="USB" device="PCB2"/>
+<part name="-" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
 </parts>
 <sheets>
 <sheet>
@@ -6989,14 +6999,15 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="R2" gate="G$1" x="38.1" y="66.04"/>
 <instance part="LED1" gate="G$1" x="12.7" y="76.2"/>
 <instance part="LED2" gate="G$1" x="20.32" y="76.2"/>
-<instance part="TX" gate="G$1" x="17.78" y="58.42" rot="R90"/>
-<instance part="RX" gate="G$1" x="15.24" y="55.88" rot="R90"/>
+<instance part="T" gate="G$1" x="17.78" y="58.42" rot="R90"/>
+<instance part="R" gate="G$1" x="15.24" y="55.88" rot="R90"/>
 <instance part="D" gate="G$1" x="22.86" y="33.02" rot="R90"/>
 <instance part="C" gate="G$1" x="22.86" y="35.56" rot="R90"/>
-<instance part="R" gate="G$1" x="33.02" y="25.4" rot="R90"/>
+<instance part="RS" gate="G$1" x="33.02" y="25.4" rot="R90"/>
 <instance part="GND1" gate="1" x="50.8" y="27.94"/>
-<instance part="5" gate="G$1" x="119.38" y="76.2"/>
+<instance part="5V" gate="G$1" x="119.38" y="76.2"/>
 <instance part="U$1" gate="G$1" x="154.94" y="63.5" rot="R180"/>
+<instance part="-" gate="G$1" x="124.46" y="30.48"/>
 </instances>
 <busses>
 </busses>
@@ -7045,10 +7056,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="111.76" y="27.94"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="116.84" y1="27.94" x2="116.84" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="27.94" x2="137.16" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="27.94" x2="124.46" y2="27.94" width="0.1524" layer="91"/>
 <junction x="116.84" y="27.94"/>
 <pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="124.46" y1="27.94" x2="137.16" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="27.94" x2="137.16" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="-" gate="G$1" pin="TP"/>
+<junction x="124.46" y="27.94"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="PF2"/>
@@ -7074,7 +7088,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="88.9" y1="71.12" x2="119.38" y2="71.12" width="0.1524" layer="91"/>
 <junction x="137.16" y="71.12"/>
 <label x="127" y="71.12" size="1.778" layer="95"/>
-<pinref part="5" gate="G$1" pin="TP"/>
+<pinref part="5V" gate="G$1" pin="TP"/>
 <wire x1="119.38" y1="71.12" x2="137.16" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="73.66" x2="119.38" y2="71.12" width="0.1524" layer="91"/>
 <junction x="119.38" y="71.12"/>
@@ -7164,7 +7178,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <pinref part="U1" gate="G$1" pin="PB13"/>
 <wire x1="53.34" y1="58.42" x2="20.32" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="TX" gate="G$1" pin="TP"/>
+<pinref part="T" gate="G$1" pin="TP"/>
 <label x="27.94" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -7172,7 +7186,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <pinref part="U1" gate="G$1" pin="PB14"/>
 <wire x1="53.34" y1="55.88" x2="17.78" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="RX" gate="G$1" pin="TP"/>
+<pinref part="R" gate="G$1" pin="TP"/>
 <label x="27.94" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -7197,7 +7211,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="U1" gate="G$1" pin="/RESET"/>
 <wire x1="53.34" y1="25.4" x2="35.56" y2="25.4" width="0.1524" layer="91"/>
 <label x="38.1" y="25.4" size="1.778" layer="95"/>
-<pinref part="R" gate="G$1" pin="TP"/>
+<pinref part="RS" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="CAP0A" class="0">
