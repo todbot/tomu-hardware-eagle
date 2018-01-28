@@ -4,3 +4,4 @@ My attempt at translating the wonderful im-tomu/tomu-hardware project that's in 
 
 ![tomu-eagle0-top](./docs/tomu-eagle0-pcb-top.png)
 ![tomu-eagle0-bot](./docs/tomu-eagle0-pcb-bot.png)
+![tomu-eagle0-sch](./docs/tomu-eagle0-sch.png)
