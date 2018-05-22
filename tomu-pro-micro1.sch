@@ -158,152 +158,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="todstuff">
-<packages>
-<package name="QFN24PAD">
-<wire x1="2.15" y1="-2.6" x2="2.55" y2="-2.6" width="0.2032" layer="21"/>
-<wire x1="2.55" y1="-2.15" x2="2.55" y2="-2.6" width="0.2032" layer="21"/>
-<wire x1="-2.2" y1="-2.6" x2="-2.6" y2="-2.6" width="0.2032" layer="21"/>
-<wire x1="-2.6" y1="-2.6" x2="-2.6" y2="-2.2" width="0.2032" layer="21"/>
-<wire x1="2.55" y1="2.2" x2="2.55" y2="2.65" width="0.2032" layer="21"/>
-<wire x1="2.55" y1="2.65" x2="2.15" y2="2.65" width="0.2032" layer="21"/>
-<wire x1="-2.3" y1="2.7" x2="-2.7" y2="2.3" width="0.2032" layer="21"/>
-<smd name="1" x="-2.55" y="1.75" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="2" x="-2.55" y="1.05" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="3" x="-2.55" y="0.35" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="4" x="-2.55" y="-0.35" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="5" x="-2.55" y="-1.05" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="6" x="-2.55" y="-1.75" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="7" x="-1.75" y="-2.55" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="8" x="-1.05" y="-2.55" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="9" x="-0.35" y="-2.55" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="10" x="0.35" y="-2.55" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="11" x="1.05" y="-2.55" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="12" x="1.75" y="-2.55" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="13" x="2.55" y="-1.75" dx="0.8" dy="0.3" layer="1"/>
-<smd name="14" x="2.55" y="-1.05" dx="0.8" dy="0.3" layer="1"/>
-<smd name="15" x="2.55" y="-0.35" dx="0.8" dy="0.3" layer="1"/>
-<smd name="16" x="2.55" y="0.35" dx="0.8" dy="0.3" layer="1"/>
-<smd name="17" x="2.55" y="1.05" dx="0.8" dy="0.3" layer="1"/>
-<smd name="18" x="2.55" y="1.75" dx="0.8" dy="0.3" layer="1"/>
-<smd name="19" x="1.75" y="2.55" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="20" x="1.05" y="2.55" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="21" x="0.35" y="2.55" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="22" x="-0.35" y="2.55" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="23" x="-1.05" y="2.55" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="24" x="-1.75" y="2.55" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<text x="-2.818" y="4.298" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.868" y="-5.442" size="1.27" layer="27">&gt;VALUE</text>
-<smd name="PAD" x="0" y="0" dx="3.5" dy="3.5" layer="1" cream="no"/>
-<polygon width="0.01" layer="51">
-<vertex x="-2.5" y="2.55"/>
-<vertex x="-2.5" y="-2.5"/>
-<vertex x="2.45" y="-2.5"/>
-<vertex x="2.45" y="2.55"/>
-</polygon>
-<polygon width="0.127" layer="31">
-<vertex x="-1.8" y="1.8"/>
-<vertex x="-0.2" y="1.8"/>
-<vertex x="-0.2" y="0.25"/>
-<vertex x="-1.8" y="0.25"/>
-</polygon>
-<polygon width="0.127" layer="31">
-<vertex x="0.2" y="1.8"/>
-<vertex x="1.8" y="1.8"/>
-<vertex x="1.8" y="0.25"/>
-<vertex x="0.2" y="0.25"/>
-</polygon>
-<polygon width="0.127" layer="31">
-<vertex x="0.2" y="-1.8"/>
-<vertex x="1.8" y="-1.8"/>
-<vertex x="1.8" y="-0.2"/>
-<vertex x="0.2" y="-0.2"/>
-</polygon>
-<polygon width="0.127" layer="31">
-<vertex x="-1.8" y="-0.2"/>
-<vertex x="-1.8" y="-1.8"/>
-<vertex x="-0.2" y="-1.8"/>
-<vertex x="-0.2" y="-0.2"/>
-</polygon>
-</package>
-</packages>
-<symbols>
-<symbol name="EFM32HG309">
-<wire x1="-12.7" y1="20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
-<wire x1="12.7" y1="20.32" x2="12.7" y2="-30.48" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-30.48" x2="-12.7" y2="-30.48" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-30.48" x2="-12.7" y2="20.32" width="0.254" layer="94"/>
-<pin name="PA0" x="-17.78" y="17.78" length="middle"/>
-<pin name="PB7" x="-17.78" y="12.7" length="middle"/>
-<pin name="PB8" x="-17.78" y="10.16" length="middle"/>
-<pin name="PB11" x="-17.78" y="7.62" length="middle"/>
-<pin name="PB13" x="-17.78" y="5.08" length="middle"/>
-<pin name="PB14" x="-17.78" y="2.54" length="middle"/>
-<pin name="PC0" x="-17.78" y="-2.54" length="middle"/>
-<pin name="PC1" x="-17.78" y="-5.08" length="middle"/>
-<pin name="PE13" x="-17.78" y="-10.16" length="middle"/>
-<pin name="PE12" x="-17.78" y="-12.7" length="middle"/>
-<pin name="PF0" x="-17.78" y="-17.78" length="middle"/>
-<pin name="PF1" x="-17.78" y="-20.32" length="middle"/>
-<pin name="PF2" x="-17.78" y="-22.86" length="middle"/>
-<pin name="/RESET" x="-17.78" y="-27.94" length="middle"/>
-<pin name="USB_VREGI" x="17.78" y="17.78" length="middle" rot="R180"/>
-<pin name="PC14" x="17.78" y="12.7" length="middle" rot="R180"/>
-<pin name="PC15" x="17.78" y="10.16" length="middle" rot="R180"/>
-<pin name="USB_VREGO" x="17.78" y="2.54" length="middle" rot="R180"/>
-<pin name="VDD_DREG" x="17.78" y="-7.62" length="middle" rot="R180"/>
-<pin name="AVDD_0" x="17.78" y="-10.16" length="middle" rot="R180"/>
-<pin name="AVDD_2" x="17.78" y="-12.7" length="middle" rot="R180"/>
-<pin name="IOVDD_0" x="17.78" y="-15.24" length="middle" rot="R180"/>
-<pin name="IOVDD_5" x="17.78" y="-17.78" length="middle" rot="R180"/>
-<pin name="DECOUPLE" x="17.78" y="-20.32" length="middle" rot="R180"/>
-<pin name="VSS" x="17.78" y="-22.86" length="middle" rot="R180"/>
-<text x="-5.08" y="22.86" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-33.02" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="EFM32HG309F64G" prefix="U">
-<gates>
-<gate name="G$1" symbol="EFM32HG309" x="0" y="7.62"/>
-</gates>
-<devices>
-<device name="" package="QFN24PAD">
-<connects>
-<connect gate="G$1" pin="/RESET" pad="7"/>
-<connect gate="G$1" pin="AVDD_0" pad="12"/>
-<connect gate="G$1" pin="AVDD_2" pad="9"/>
-<connect gate="G$1" pin="DECOUPLE" pad="14"/>
-<connect gate="G$1" pin="IOVDD_0" pad="2"/>
-<connect gate="G$1" pin="IOVDD_5" pad="22"/>
-<connect gate="G$1" pin="PA0" pad="1"/>
-<connect gate="G$1" pin="PB11" pad="8"/>
-<connect gate="G$1" pin="PB13" pad="10"/>
-<connect gate="G$1" pin="PB14" pad="11"/>
-<connect gate="G$1" pin="PB7" pad="5"/>
-<connect gate="G$1" pin="PB8" pad="6"/>
-<connect gate="G$1" pin="PC0" pad="3"/>
-<connect gate="G$1" pin="PC1" pad="4"/>
-<connect gate="G$1" pin="PC14" pad="17"/>
-<connect gate="G$1" pin="PC15" pad="18"/>
-<connect gate="G$1" pin="PE12" pad="23"/>
-<connect gate="G$1" pin="PE13" pad="24"/>
-<connect gate="G$1" pin="PF0" pad="19"/>
-<connect gate="G$1" pin="PF1" pad="20"/>
-<connect gate="G$1" pin="PF2" pad="21"/>
-<connect gate="G$1" pin="USB_VREGI" pad="15"/>
-<connect gate="G$1" pin="USB_VREGO" pad="16"/>
-<connect gate="G$1" pin="VDD_DREG" pad="13"/>
-<connect gate="G$1" pin="VSS" pad="PAD"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="adafruit" urn="urn:adsk.eagle:library:420">
 <packages>
 <package name="C0402" library_version="1">
@@ -7795,6 +7649,140 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <text x="2.3965" y="0.8615" size="0.6096" layer="25" ratio="10" rot="R270">&gt;NAME</text>
 <circle x="1.745" y="0.508" radius="0.179603125" width="0.127" layer="21"/>
 </package>
+<package name="QFN24PAD" urn="urn:adsk.eagle:footprint:1731445/2" library_version="16">
+<wire x1="2.2" y1="-2.55" x2="2.55" y2="-2.55" width="0.2032" layer="21"/>
+<wire x1="2.55" y1="-2.175" x2="2.55" y2="-2.55" width="0.2032" layer="21"/>
+<wire x1="-2.15" y1="-2.55" x2="-2.55" y2="-2.55" width="0.2032" layer="21"/>
+<wire x1="-2.55" y1="-2.55" x2="-2.55" y2="-2.15" width="0.2032" layer="21"/>
+<wire x1="2.55" y1="2.2" x2="2.55" y2="2.575" width="0.2032" layer="21"/>
+<wire x1="2.55" y1="2.575" x2="2.2" y2="2.575" width="0.2032" layer="21"/>
+<wire x1="-2.275" y1="2.75" x2="-2.7" y2="2.325" width="0.2032" layer="21"/>
+<wire x1="4.825" y1="0" x2="4.825" y2="0.025" width="0" layer="21"/>
+<smd name="1" x="-2.5" y="1.625" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="2" x="-2.5" y="0.975" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="3" x="-2.5" y="0.325" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="4" x="-2.5" y="-0.325" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="5" x="-2.5" y="-0.975" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="6" x="-2.5" y="-1.625" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="7" x="-1.625" y="-2.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="8" x="-0.975" y="-2.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="9" x="-0.325" y="-2.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="10" x="0.325" y="-2.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="11" x="0.975" y="-2.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="12" x="1.625" y="-2.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="13" x="2.5" y="-1.625" dx="0.8" dy="0.3" layer="1"/>
+<smd name="14" x="2.5" y="-0.975" dx="0.8" dy="0.3" layer="1"/>
+<smd name="15" x="2.5" y="-0.325" dx="0.8" dy="0.3" layer="1"/>
+<smd name="16" x="2.5" y="0.325" dx="0.8" dy="0.3" layer="1"/>
+<smd name="17" x="2.5" y="0.975" dx="0.8" dy="0.3" layer="1"/>
+<smd name="18" x="2.5" y="1.625" dx="0.8" dy="0.3" layer="1"/>
+<smd name="19" x="1.625" y="2.5" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="20" x="0.975" y="2.5" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="21" x="0.325" y="2.5" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="22" x="-0.325" y="2.5" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="23" x="-0.975" y="2.5" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="24" x="-1.625" y="2.5" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="PAD" x="0" y="0" dx="3.55" dy="3.55" layer="1" cream="no"/>
+<text x="-2.793" y="4.348" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.843" y="-5.392" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.01" layer="51">
+<vertex x="-2.5" y="2.5"/>
+<vertex x="-2.5" y="-2.5"/>
+<vertex x="2.5" y="-2.5"/>
+<vertex x="2.5" y="2.5"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-1.225" y="1.225"/>
+<vertex x="-0.325" y="1.225"/>
+<vertex x="-0.325" y="0.325"/>
+<vertex x="-1.225" y="0.325"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="0.325" y="1.225"/>
+<vertex x="1.225" y="1.225"/>
+<vertex x="1.225" y="0.325"/>
+<vertex x="0.325" y="0.325"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="0.325" y="-1.225"/>
+<vertex x="1.225" y="-1.225"/>
+<vertex x="1.225" y="-0.325"/>
+<vertex x="0.325" y="-0.325"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-1.225" y="-0.325"/>
+<vertex x="-1.225" y="-1.225"/>
+<vertex x="-0.325" y="-1.225"/>
+<vertex x="-0.325" y="-0.325"/>
+</polygon>
+<circle x="-2.825" y="2.9" radius="0.291546875" width="0" layer="21"/>
+</package>
+<package name="QFN24PADLOOSE" urn="urn:adsk.eagle:footprint:1731446/1" library_version="16">
+<wire x1="2.15" y1="-2.6" x2="2.55" y2="-2.6" width="0.2032" layer="21"/>
+<wire x1="2.55" y1="-2.15" x2="2.55" y2="-2.6" width="0.2032" layer="21"/>
+<wire x1="-2.2" y1="-2.6" x2="-2.6" y2="-2.6" width="0.2032" layer="21"/>
+<wire x1="-2.6" y1="-2.6" x2="-2.6" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="2.55" y1="2.2" x2="2.55" y2="2.65" width="0.2032" layer="21"/>
+<wire x1="2.55" y1="2.65" x2="2.15" y2="2.65" width="0.2032" layer="21"/>
+<wire x1="-2.3" y1="2.7" x2="-2.7" y2="2.3" width="0.2032" layer="21"/>
+<smd name="1" x="-2.55" y="1.75" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="2" x="-2.55" y="1.05" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="3" x="-2.55" y="0.35" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="4" x="-2.55" y="-0.35" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="5" x="-2.55" y="-1.05" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="6" x="-2.55" y="-1.75" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="7" x="-1.75" y="-2.55" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="8" x="-1.05" y="-2.55" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="9" x="-0.35" y="-2.55" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="10" x="0.35" y="-2.55" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="11" x="1.05" y="-2.55" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="12" x="1.75" y="-2.55" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="13" x="2.55" y="-1.75" dx="0.8" dy="0.3" layer="1"/>
+<smd name="14" x="2.55" y="-1.05" dx="0.8" dy="0.3" layer="1"/>
+<smd name="15" x="2.55" y="-0.35" dx="0.8" dy="0.3" layer="1"/>
+<smd name="16" x="2.55" y="0.35" dx="0.8" dy="0.3" layer="1"/>
+<smd name="17" x="2.55" y="1.05" dx="0.8" dy="0.3" layer="1"/>
+<smd name="18" x="2.55" y="1.75" dx="0.8" dy="0.3" layer="1"/>
+<smd name="19" x="1.75" y="2.55" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="20" x="1.05" y="2.55" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="21" x="0.35" y="2.55" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="22" x="-0.35" y="2.55" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="23" x="-1.05" y="2.55" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="24" x="-1.75" y="2.55" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="PAD" x="0" y="0" dx="3.5" dy="3.5" layer="1" cream="no"/>
+<text x="-2.818" y="4.298" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.868" y="-5.442" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.01" layer="51">
+<vertex x="-2.5" y="2.55"/>
+<vertex x="-2.5" y="-2.5"/>
+<vertex x="2.45" y="-2.5"/>
+<vertex x="2.45" y="2.55"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-1.8" y="1.8"/>
+<vertex x="-0.2" y="1.8"/>
+<vertex x="-0.2" y="0.25"/>
+<vertex x="-1.8" y="0.25"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="0.2" y="1.8"/>
+<vertex x="1.8" y="1.8"/>
+<vertex x="1.8" y="0.25"/>
+<vertex x="0.2" y="0.25"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="0.2" y="-1.8"/>
+<vertex x="1.8" y="-1.8"/>
+<vertex x="1.8" y="-0.2"/>
+<vertex x="0.2" y="-0.2"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-1.8" y="-0.2"/>
+<vertex x="-1.8" y="-1.8"/>
+<vertex x="-0.2" y="-1.8"/>
+<vertex x="-0.2" y="-0.2"/>
+</polygon>
+</package>
 </packages>
 <packages3d>
 <package3d name="WS2812B" urn="urn:adsk.eagle:package:1731512/1" type="box" library_version="15">
@@ -7815,6 +7803,16 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <package3d name="SK6812-SIDE" urn="urn:adsk.eagle:package:1731513/3" type="model" library_version="15">
 <packageinstances>
 <packageinstance name="SK6812-SIDE"/>
+</packageinstances>
+</package3d>
+<package3d name="QFN24PAD" urn="urn:adsk.eagle:package:1731515/8" type="model" library_version="16">
+<packageinstances>
+<packageinstance name="QFN24PAD"/>
+</packageinstances>
+</package3d>
+<package3d name="QFN24PADLOOSE" urn="urn:adsk.eagle:package:1731516/2" type="box" library_version="16">
+<packageinstances>
+<packageinstance name="QFN24PADLOOSE"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -7863,6 +7861,39 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <wire x1="5.08" y1="10.16" x2="5.08" y2="7.62" width="0.254" layer="94"/>
 <wire x1="2.54" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
 <text x="-4.064" y="8.382" size="1.27" layer="94">WS2812B</text>
+</symbol>
+<symbol name="EFM32HG309" urn="urn:adsk.eagle:symbol:1731444/1" library_version="16">
+<wire x1="-12.7" y1="20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="20.32" x2="12.7" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-30.48" x2="-12.7" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-30.48" x2="-12.7" y2="20.32" width="0.254" layer="94"/>
+<pin name="PA0" x="-17.78" y="17.78" length="middle"/>
+<pin name="PB7" x="-17.78" y="12.7" length="middle"/>
+<pin name="PB8" x="-17.78" y="10.16" length="middle"/>
+<pin name="PB11" x="-17.78" y="7.62" length="middle"/>
+<pin name="PB13" x="-17.78" y="5.08" length="middle"/>
+<pin name="PB14" x="-17.78" y="2.54" length="middle"/>
+<pin name="PC0" x="-17.78" y="-2.54" length="middle"/>
+<pin name="PC1" x="-17.78" y="-5.08" length="middle"/>
+<pin name="PE13" x="-17.78" y="-10.16" length="middle"/>
+<pin name="PE12" x="-17.78" y="-12.7" length="middle"/>
+<pin name="PF0" x="-17.78" y="-17.78" length="middle"/>
+<pin name="PF1" x="-17.78" y="-20.32" length="middle"/>
+<pin name="PF2" x="-17.78" y="-22.86" length="middle"/>
+<pin name="/RESET" x="-17.78" y="-27.94" length="middle"/>
+<pin name="USB_VREGI" x="17.78" y="17.78" length="middle" rot="R180"/>
+<pin name="PC14" x="17.78" y="12.7" length="middle" rot="R180"/>
+<pin name="PC15" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="USB_VREGO" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="VDD_DREG" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="AVDD_0" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="AVDD_2" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="IOVDD_0" x="17.78" y="-15.24" length="middle" rot="R180"/>
+<pin name="IOVDD_5" x="17.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="DECOUPLE" x="17.78" y="-20.32" length="middle" rot="R180"/>
+<pin name="VSS" x="17.78" y="-22.86" length="middle" rot="R180"/>
+<text x="-5.08" y="22.86" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-33.02" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -7929,6 +7960,83 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </device>
 </devices>
 </deviceset>
+<deviceset name="EFM32HG309F64G" urn="urn:adsk.eagle:component:1731555/9" prefix="U" library_version="16">
+<gates>
+<gate name="G$1" symbol="EFM32HG309" x="0" y="7.62"/>
+</gates>
+<devices>
+<device name="" package="QFN24PAD">
+<connects>
+<connect gate="G$1" pin="/RESET" pad="7"/>
+<connect gate="G$1" pin="AVDD_0" pad="12"/>
+<connect gate="G$1" pin="AVDD_2" pad="9"/>
+<connect gate="G$1" pin="DECOUPLE" pad="14"/>
+<connect gate="G$1" pin="IOVDD_0" pad="2"/>
+<connect gate="G$1" pin="IOVDD_5" pad="22"/>
+<connect gate="G$1" pin="PA0" pad="1"/>
+<connect gate="G$1" pin="PB11" pad="8"/>
+<connect gate="G$1" pin="PB13" pad="10"/>
+<connect gate="G$1" pin="PB14" pad="11"/>
+<connect gate="G$1" pin="PB7" pad="5"/>
+<connect gate="G$1" pin="PB8" pad="6"/>
+<connect gate="G$1" pin="PC0" pad="3"/>
+<connect gate="G$1" pin="PC1" pad="4"/>
+<connect gate="G$1" pin="PC14" pad="17"/>
+<connect gate="G$1" pin="PC15" pad="18"/>
+<connect gate="G$1" pin="PE12" pad="23"/>
+<connect gate="G$1" pin="PE13" pad="24"/>
+<connect gate="G$1" pin="PF0" pad="19"/>
+<connect gate="G$1" pin="PF1" pad="20"/>
+<connect gate="G$1" pin="PF2" pad="21"/>
+<connect gate="G$1" pin="USB_VREGI" pad="15"/>
+<connect gate="G$1" pin="USB_VREGO" pad="16"/>
+<connect gate="G$1" pin="VDD_DREG" pad="13"/>
+<connect gate="G$1" pin="VSS" pad="PAD"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1731515/8"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="LOOSE" package="QFN24PADLOOSE">
+<connects>
+<connect gate="G$1" pin="/RESET" pad="7"/>
+<connect gate="G$1" pin="AVDD_0" pad="12"/>
+<connect gate="G$1" pin="AVDD_2" pad="9"/>
+<connect gate="G$1" pin="DECOUPLE" pad="14"/>
+<connect gate="G$1" pin="IOVDD_0" pad="2"/>
+<connect gate="G$1" pin="IOVDD_5" pad="22"/>
+<connect gate="G$1" pin="PA0" pad="1"/>
+<connect gate="G$1" pin="PB11" pad="8"/>
+<connect gate="G$1" pin="PB13" pad="10"/>
+<connect gate="G$1" pin="PB14" pad="11"/>
+<connect gate="G$1" pin="PB7" pad="5"/>
+<connect gate="G$1" pin="PB8" pad="6"/>
+<connect gate="G$1" pin="PC0" pad="3"/>
+<connect gate="G$1" pin="PC1" pad="4"/>
+<connect gate="G$1" pin="PC14" pad="17"/>
+<connect gate="G$1" pin="PC15" pad="18"/>
+<connect gate="G$1" pin="PE12" pad="23"/>
+<connect gate="G$1" pin="PE13" pad="24"/>
+<connect gate="G$1" pin="PF0" pad="19"/>
+<connect gate="G$1" pin="PF1" pad="20"/>
+<connect gate="G$1" pin="PF2" pad="21"/>
+<connect gate="G$1" pin="USB_VREGI" pad="15"/>
+<connect gate="G$1" pin="USB_VREGO" pad="16"/>
+<connect gate="G$1" pin="VDD_DREG" pad="13"/>
+<connect gate="G$1" pin="VSS" pad="PAD"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1731516/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -7941,7 +8049,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </class>
 </classes>
 <parts>
-<part name="U1" library="todstuff" deviceset="EFM32HG309F64G" device=""/>
 <part name="C1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" value="1uF"/>
 <part name="C2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" value="1uF"/>
 <part name="C3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" value="4.7uF"/>
@@ -7978,6 +8085,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="C4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" value="100n"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="VBUS5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
+<part name="U1" library="todstuff" library_urn="urn:adsk.eagle:library:1731349" deviceset="EFM32HG309F64G" device="" package3d_urn="urn:adsk.eagle:package:1731515/8"/>
 </parts>
 <sheets>
 <sheet>
@@ -7994,7 +8102,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <text x="7.62" y="40.64" size="1.778" layer="97">CAP0B</text>
 </plain>
 <instances>
-<instance part="U1" gate="G$1" x="71.12" y="53.34"/>
 <instance part="C1" gate="G$1" x="101.6" y="33.02" rot="R90"/>
 <instance part="C2" gate="G$1" x="116.84" y="38.1"/>
 <instance part="C3" gate="G$1" x="137.16" y="38.1"/>
@@ -8031,22 +8138,23 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <instance part="C4" gate="G$1" x="139.7" y="152.4"/>
 <instance part="GND8" gate="1" x="139.7" y="144.78"/>
 <instance part="VBUS5" gate="1" x="139.7" y="157.48"/>
+<instance part="U1" gate="G$1" x="71.12" y="53.34"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="RUSB_P" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PC15"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="63.5" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="PC15"/>
 </segment>
 </net>
 <net name="RUSB_N" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PC14"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="66.04" x2="88.9" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="PC14"/>
 </segment>
 </net>
 <net name="USB_N" class="0">
@@ -8077,7 +8185,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="106.68" y1="33.02" x2="106.68" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="VSS"/>
 <wire x1="88.9" y1="30.48" x2="88.9" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="27.94" x2="106.68" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="27.94" x2="111.76" y2="27.94" width="0.1524" layer="91"/>
@@ -8091,6 +8198,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="116.84" y1="27.94" x2="137.16" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="27.94" x2="137.16" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="VSS"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="GND"/>
@@ -8130,10 +8238,10 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <wire x1="137.16" y1="81.28" x2="137.16" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="40.64" x2="137.16" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="USB_VREGI"/>
 <wire x1="88.9" y1="71.12" x2="137.16" y2="71.12" width="0.1524" layer="91"/>
 <junction x="137.16" y="71.12"/>
 <label x="127" y="71.12" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="USB_VREGI"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="VBUS"/>
@@ -8151,14 +8259,13 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </net>
 <net name="DECOUPLE" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="DECOUPLE"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="33.02" x2="99.06" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="DECOUPLE"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="USB_VREGO"/>
 <wire x1="88.9" y1="55.88" x2="93.98" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="55.88" x2="116.84" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="55.88" x2="116.84" y2="40.64" width="0.1524" layer="91"/>
@@ -8166,26 +8273,27 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
 <wire x1="116.84" y1="58.42" x2="116.84" y2="55.88" width="0.1524" layer="91"/>
 <junction x="116.84" y="55.88"/>
-<pinref part="U1" gate="G$1" pin="IOVDD_5"/>
 <wire x1="88.9" y1="35.56" x2="93.98" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="35.56" x2="93.98" y2="38.1" width="0.1524" layer="91"/>
 <junction x="93.98" y="55.88"/>
-<pinref part="U1" gate="G$1" pin="IOVDD_0"/>
 <wire x1="93.98" y1="38.1" x2="93.98" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="40.64" x2="93.98" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="43.18" x2="93.98" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="45.72" x2="93.98" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="38.1" x2="93.98" y2="38.1" width="0.1524" layer="91"/>
 <junction x="93.98" y="38.1"/>
-<pinref part="U1" gate="G$1" pin="AVDD_2"/>
 <wire x1="88.9" y1="40.64" x2="93.98" y2="40.64" width="0.1524" layer="91"/>
 <junction x="93.98" y="40.64"/>
-<pinref part="U1" gate="G$1" pin="AVDD_0"/>
 <wire x1="88.9" y1="43.18" x2="93.98" y2="43.18" width="0.1524" layer="91"/>
 <junction x="93.98" y="43.18"/>
-<pinref part="U1" gate="G$1" pin="VDD_DREG"/>
 <wire x1="88.9" y1="45.72" x2="93.98" y2="45.72" width="0.1524" layer="91"/>
 <junction x="93.98" y="45.72"/>
+<pinref part="U1" gate="G$1" pin="USB_VREGO"/>
+<pinref part="U1" gate="G$1" pin="VDD_DREG"/>
+<pinref part="U1" gate="G$1" pin="AVDD_0"/>
+<pinref part="U1" gate="G$1" pin="AVDD_2"/>
+<pinref part="U1" gate="G$1" pin="IOVDD_0"/>
+<pinref part="U1" gate="G$1" pin="IOVDD_5"/>
 </segment>
 <segment>
 <pinref part="LED2" gate="G$1" pin="A"/>
@@ -8209,11 +8317,11 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </net>
 <net name="PA0" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PA0"/>
 <wire x1="53.34" y1="71.12" x2="2.54" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="71.12" x2="2.54" y2="78.74" width="0.1524" layer="91"/>
 <label x="27.94" y="71.12" size="1.778" layer="95"/>
 <pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="U1" gate="G$1" pin="PA0"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="8"/>
@@ -8223,11 +8331,11 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </net>
 <net name="PB7" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB7"/>
 <wire x1="53.34" y1="66.04" x2="-5.08" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="66.04" x2="-5.08" y2="78.74" width="0.1524" layer="91"/>
 <label x="27.94" y="66.04" size="1.778" layer="95"/>
 <pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="U1" gate="G$1" pin="PB7"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="8"/>
@@ -8251,9 +8359,9 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </net>
 <net name="PB13" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB13"/>
 <wire x1="53.34" y1="58.42" x2="17.78" y2="58.42" width="0.1524" layer="91"/>
 <label x="27.94" y="58.42" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="PB13"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="4"/>
@@ -8263,9 +8371,9 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </net>
 <net name="PB14" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB14"/>
 <wire x1="53.34" y1="55.88" x2="17.78" y2="55.88" width="0.1524" layer="91"/>
 <label x="27.94" y="55.88" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="PB14"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="3"/>
@@ -8275,9 +8383,9 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </net>
 <net name="/RESET" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="/RESET"/>
 <wire x1="53.34" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
 <label x="27.94" y="25.4" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="/RESET"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="6"/>
@@ -8287,10 +8395,10 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </net>
 <net name="PC0" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PC0"/>
 <wire x1="53.34" y1="50.8" x2="2.54" y2="50.8" width="0.1524" layer="91"/>
 <label x="27.94" y="50.8" size="1.778" layer="95"/>
 <pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="U1" gate="G$1" pin="PC0"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="9"/>
@@ -8300,9 +8408,9 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </net>
 <net name="PC1" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PC1"/>
 <wire x1="53.34" y1="48.26" x2="17.78" y2="48.26" width="0.1524" layer="91"/>
 <label x="27.94" y="48.26" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="PC1"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="10"/>
@@ -8312,9 +8420,9 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </net>
 <net name="PE13" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PE13"/>
 <wire x1="53.34" y1="43.18" x2="17.78" y2="43.18" width="0.1524" layer="91"/>
 <label x="27.94" y="43.18" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="PE13"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="7"/>
@@ -8329,13 +8437,13 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </net>
 <net name="PE12" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PE12"/>
 <wire x1="53.34" y1="40.64" x2="-10.16" y2="40.64" width="0.1524" layer="91"/>
 <label x="27.94" y="40.64" size="1.778" layer="95"/>
 <pinref part="SW1" gate="G$1" pin="P"/>
 <pinref part="SW1" gate="G$1" pin="P1"/>
 <wire x1="-12.7" y1="40.64" x2="-10.16" y2="40.64" width="0.1524" layer="91"/>
 <junction x="-10.16" y="40.64"/>
+<pinref part="U1" gate="G$1" pin="PE12"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="6"/>
@@ -8345,9 +8453,9 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </net>
 <net name="PF2" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PF2"/>
 <wire x1="53.34" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
 <label x="27.94" y="30.48" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="PF2"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="5"/>
@@ -8357,9 +8465,9 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </net>
 <net name="PB8" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB8"/>
 <wire x1="53.34" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
 <label x="27.94" y="63.5" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="PB8"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="7"/>
@@ -8369,9 +8477,9 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </net>
 <net name="PB11" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB11"/>
 <wire x1="53.34" y1="60.96" x2="27.94" y2="60.96" width="0.1524" layer="91"/>
 <label x="27.94" y="60.96" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="PB11"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="5"/>
@@ -8391,9 +8499,9 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </net>
 <net name="PF0" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PF0"/>
 <wire x1="53.34" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
 <label x="27.94" y="35.56" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="PF0"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="3"/>
@@ -8403,9 +8511,9 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </net>
 <net name="PF1" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PF1"/>
 <wire x1="53.34" y1="33.02" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 <label x="27.94" y="33.02" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="PF1"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="4"/>
