@@ -8077,7 +8077,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="L1" library="todstuff" library_urn="urn:adsk.eagle:library:1731349" deviceset="WS2812B" device="3535" package3d_urn="urn:adsk.eagle:package:1731511/1"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="VBUS3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="L2" library="todstuff" library_urn="urn:adsk.eagle:library:1731349" deviceset="WS2812B" device="3535" package3d_urn="urn:adsk.eagle:package:1731511/1"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="VBUS4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
@@ -8086,6 +8085,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="VBUS5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="U1" library="todstuff" library_urn="urn:adsk.eagle:library:1731349" deviceset="EFM32HG309F64G" device="" package3d_urn="urn:adsk.eagle:package:1731515/8"/>
+<part name="VBUS6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8130,7 +8130,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <instance part="+3V4" gate="G$1" x="53.34" y="129.54"/>
 <instance part="L1" gate="G$1" x="124.46" y="124.46"/>
 <instance part="GND6" gate="1" x="124.46" y="111.76"/>
-<instance part="VBUS3" gate="1" x="114.3" y="147.32"/>
 <instance part="L2" gate="G$1" x="149.86" y="124.46"/>
 <instance part="GND7" gate="1" x="149.86" y="111.76"/>
 <instance part="VBUS4" gate="1" x="154.94" y="147.32"/>
@@ -8139,6 +8138,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <instance part="GND8" gate="1" x="139.7" y="144.78"/>
 <instance part="VBUS5" gate="1" x="139.7" y="157.48"/>
 <instance part="U1" gate="G$1" x="71.12" y="53.34"/>
+<instance part="VBUS6" gate="1" x="104.14" y="147.32"/>
 </instances>
 <busses>
 </busses>
@@ -8255,6 +8255,22 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <pinref part="VBUS2" gate="1" pin="V+"/>
 <wire x1="50.8" y1="144.78" x2="73.66" y2="144.78" width="0.1524" layer="91"/>
 <label x="58.42" y="144.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="L2" gate="G$1" pin="VDD"/>
+<pinref part="VBUS4" gate="1" pin="V+"/>
+<wire x1="154.94" y1="139.7" x2="154.94" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="VBUS6" gate="1" pin="V+"/>
+<wire x1="119.38" y1="142.24" x2="104.14" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="142.24" x2="104.14" y2="144.78" width="0.1524" layer="91"/>
+<label x="106.68" y="142.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="VBUS5" gate="1" pin="V+"/>
 </segment>
 </net>
 <net name="DECOUPLE" class="0">
@@ -8525,23 +8541,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <segment>
 <pinref part="L1" gate="G$1" pin="DO"/>
 <pinref part="L2" gate="G$1" pin="DI"/>
-</segment>
-</net>
-<net name="V+" class="0">
-<segment>
-<pinref part="L2" gate="G$1" pin="VDD"/>
-<pinref part="VBUS4" gate="1" pin="V+"/>
-<wire x1="154.94" y1="139.7" x2="154.94" y2="144.78" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="D1" gate="G$1" pin="A"/>
-<pinref part="VBUS3" gate="1" pin="V+"/>
-<wire x1="119.38" y1="142.24" x2="114.3" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="142.24" x2="114.3" y2="144.78" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C4" gate="G$1" pin="1"/>
-<pinref part="VBUS5" gate="1" pin="V+"/>
 </segment>
 </net>
 <net name="DO" class="0">
